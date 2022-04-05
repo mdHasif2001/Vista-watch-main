@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+# Vista Watch
+
+* This site has been created with React Js.
+
+* This is fully functional website 
+
+# Technology Used
+
+1. React
+2. Rechart
+
+# Bullet Point
+
+----> This website has a Dashboard section which created with Rechart
+
+---> In the home section you will find order review section which will show only 3 review and in the bottom of the website has Review button which directly land you in Review section
+
+---> In the blog section are discussed about the semantic tag and about inline, inline-block, block element
+
+---> In the about section we are discussed about our product quality
+
+# Site Links
+
+# Live-site: https://react-vista-watch.netlify.app/home
+
+# code-link: https://github.com/programming-hero-web-course-4/product-analysis-website-mdHasif2001
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
