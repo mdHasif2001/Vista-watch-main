@@ -1,0 +1,9 @@
+.blog{
+    margin: 12px;
+}
+
+.blog-txt{
+    border: 2px solid red;
+    margin: 12px;
+    padding: 12px;
+}
