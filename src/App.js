@@ -5,6 +5,7 @@ import Blog from './Components/Blog/Blog';
 import Dashboard from './Components/DashBoard/Dashboard';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import NotFoundPage from './Components/NotFoundPage/NotFoundPage';
 import Review from './Components/Review/Review';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path="*" element={<NotFoundPage></NotFoundPage>} />
       </Routes>
     </div>
   );

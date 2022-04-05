@@ -23,7 +23,7 @@ const Home = () => {
 
             <div>
                 <h1 className='order-txt'>Order Review(3)</h1>
-                <p><Review></Review></p>
+                <p><Review> </Review></p>
 
             <Link className='home-review' to="/review">Review</Link>
 
