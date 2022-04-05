@@ -1,10 +1,20 @@
 import React from 'react';
+import  { useEffect, useState } from 'react';
 import './Home.css';
 import img from '../img/1.png'
-import Review from '../Review/Review';
 import { Link } from 'react-router-dom';
+import ProductRev from '../ProductRev/ProductRev';
+
 
 const Home = () => {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        fetch('fakedata.json')
+            .then(res => res.json())
+            .then(data => setProducts(data));
+    }, []);
+
     return (
         <div>
             <div className='home'>
@@ -23,7 +33,14 @@ const Home = () => {
 
             <div>
                 <h1 className='order-txt'>Order Review(3)</h1>
-                <p><Review> </Review></p>
+                <div className="products-container">
+                {
+                    products.slice(0, 3).map(product => <ProductRev
+                        key={product.id}
+                        product={product}
+                    ></ProductRev>)
+                }
+            </div>
 
             <Link className='home-review' to="/review">Review</Link>
 
