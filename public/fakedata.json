@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Jhone",
+        "comment": "Best product I have ever purchased. One of the best thing of this product is the price and I just fall in love with this product. I will recommend all of you to buy this watch",
+        "Date": "2/4/2022",
+        "rating": "5/5"
+    },
+    {
+        "id": 2,
+        "name": "Helly",
+        "comment": "Firstly when I brought this watch I was so confused why the price is so friendly. Then after when I got this product then I realized that the product is too good with this price. Will gonna suggest this product strongly.",
+        "Date": "4/4/2022",
+        "rating": "4.5/5"
+    },
+    {
+        "id": 3,
+        "name": "Roy",
+        "comment": "I fill like the product is kinda Average. Yes the price of this product is good. But I think the can be much better with this product. But still the product yes good enough. and You can but this product If you fill Comfortable",
+        "Date": "5/4/2022",
+        "rating": "3.5/5"
+    },
+    {
+        "id": 4,
+        "name": "Smith",
+        "comment": "Wow! I just fall in love with this product. This is one of the best of product that I have purchased online. The product is kinda cool. With best price the product give the best quality.",
+        "Date": "5/4/2022",
+        "rating": "5/5"
+    },
+    {
+        "id": 5,
+        "name": "Kelly",
+        "comment": "The product is not that bed but still I kinda don't like this product at all. The quality can be better. And I fill like with this quality the price can be lower.",
+        "Date": "4/4/2022",
+        "rating": "3/5"
+    },
+
+    {
+        "id": 6,
+        "name": "Jhone",
+        "comment": "The product is kinda average. But when you concern about the price it is the best product in market right now. And I feel like everyone should feel free to purchased this product. This such good product. Just feel free to purchased it.",
+        "Date": "3/4/2022",
+        "rating": "5/5"
+    }
+
+]
