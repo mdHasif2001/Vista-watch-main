@@ -1,10 +1,8 @@
 import React from 'react';
-import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-import Barchart from '../Barchart/Barchart';
-import './Dashboard.css'
+import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
 
-const Dashboard = () => {
 
+const Barchart = () => {
     const data = [
         {
             month: "Mar",
@@ -43,19 +41,17 @@ const Dashboard = () => {
             revenue: 61000
         },
     ];
+
     return (
-        <div className='chart'>
-            <LineChart className='line-chart' width={650} height={350} data={data}>
-                <Line dataKey={'investment'}></Line>
-                <Line dataKey={'sell'}></Line>
-                <Line dataKey={'revenue'}></Line>
+            <BarChart width={650} height={350} data={data}>
+                <Bar dataKey="sell" fill="#8884d8" />
+                <Bar dataKey="investment" fill="#8884d8" />
+                <Bar dataKey="revenue" fill="#8884d8" />
                 <XAxis dataKey="month"></XAxis>
                 <Tooltip></Tooltip>
                 <YAxis></YAxis>
-            </LineChart>
-            <Barchart></Barchart>
-        </div>
+            </BarChart>
     );
 };
 
-export default Dashboard;
+export default Barchart;
